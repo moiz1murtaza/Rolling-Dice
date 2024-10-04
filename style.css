@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .dice-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .dice {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dice-face {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #roll-button {
+    background-color: #4CAF50;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #roll-button:hover {
+    background-color: red;
+  }
+  *{
+    background-color: rgb(193, 246, 246);
+  }
+  
+  .dice-face {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* default color */
+    background-color: #333; /* default background color */
+    border-radius: 19.5%;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .dice-face.one {
+    background-color: #FF69B4; /* red */
+  }
+  
+  .dice-face.two {
+    background-color: #33CC33; /* green */
+  }
+  
+  .dice-face.three {
+    background-color: #FFFF00; /* yellow */
+  }
+  
+  .dice-face.four {
+    background-color: #0066CC; /* blue */
+  }
+  
+  .dice-face.five {
+    background-color: #FFCC00; /* orange */
+  }
+  
+  .dice-face.six {
+    background-color: #0099CC; /* cyan */
+  }
+  h1{
+    background-color: #3832a4;
+    color: white;
+    
+  }
